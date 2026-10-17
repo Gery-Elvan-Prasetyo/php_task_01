@@ -13,22 +13,11 @@
 
     <?php
     $teks = "Toko Gery";
-    $jumlah = 20;
-    $harga = 3500.00;
-    $stok_ada = true;
-    $produk = ["indomie", "teh pucuk", "kopi"];
-    $array_to = ["produk" => $produk, "harga" => $harga];
+    $aura = ["luminosity", "sol", "aegis", "lotusfall"];
+    $rarity = [1200000000, 00, 825000000, 320000000];
+    $array_to = ["aura" => $aura, "rarity" => $rarity];
 
-    $nama = "Gery";
-    $umur = 10;
-    $Sekolah = "Smkn 4 bdl";
-    $hobi = "chilling, memandang alam";
-    $tahunlahir = 2009;
-    $whenyh = 5;
-    $jumlah = $tahunlahir + $whenyh;
-
-
-    var_dump($array_to);
+    var_dump($array_to["aura"][0], $array_to["aura"][1]);
     ?>
 
 </body>
