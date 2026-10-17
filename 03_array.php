@@ -15,11 +15,11 @@
     $teks = "Toko Gery";
     $aura = ["luminosity", "sol", "aegis", "lotusfall"];
     $rarity = [1200000000, 00, 825000000, 320000000];
-    $array_to = ["aura" => $aura, "rarity" => $rarity];
+    $biome = ["none", "only admin now", "none/cyberspace half the chance", "none i guess"];
+    $array_to = ["aura" => $aura, "rarity" => $rarity, "biome" => $biome];
 
-    var_dump($array_to["aura"][0], $array_to["aura"][1]);
+    var_dump($array_to["aura"], $array_to["rarity"], $array_to["biome"]);
     ?>
 
 </body>
-
 </html>

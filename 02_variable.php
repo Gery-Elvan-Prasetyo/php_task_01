@@ -12,21 +12,18 @@
     <br>
 
     <?php
-    $teks = "Toko Gery";
-    $jumlah = 20;
-    $harga = 3500.00;
-    $stok_ada = true;
-    $produk = ["indomie","teh pucuk","kopi"];
-    $array_to = ["produk"=>$produk, "harga" =>$harga];
-    var_dump($array_to). PHP_EOL;
 
-    $nama = "Gery";
-    $umur = 10;
-    $Sekolah = "Smkn 4 bdl";
-    $hobi = "chilling, memandang alam";
-    $tahunlahir = 2009;
-    $whenyh = 5;
-    $jumlah = $tahunlahir + $whenyh;
+    $nama = "Gery"; // "" buat string
+    $umur = 10; // nomor untuk integer dan float pakein "."
+    $Sekolah = "Smkn 4 bdl"; // string
+    $hobi = "chilling, memandang alam"; // sama aja
+    $tahunlahir = 2009; // int
+    $whenyh = 5; // int
+    $jumlah = $tahunlahir + $whenyh; // menjumlahkan
+    // menggabungkan kata
+    $kata1 = "hai,"; // kata 1
+    $kata2 = "aku pristel"; // kata 2
+    $gabungkata = $kata1. " ". $kata2; // "." untuk menggabung variable atau string
 
     echo "nama : $nama \n";
     print_r("umur : $umur \n");
@@ -34,8 +31,8 @@
     echo "hobi : $umur \n";
     echo "lahir : $tahunlahir \n";
     echo "??? : $jumlah \n";
+    echo $gabungkata;
 
-    var_dump($array_to);
     ?>
 
 </body>
