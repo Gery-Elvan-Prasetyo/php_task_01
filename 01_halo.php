@@ -13,9 +13,13 @@
     // variable 1
     $a = 10;
     // variable 2
-    $b = 5;
+    $b = 3;
     // melakukan penjumlahan
-    $hasil = $a + $b;
+    $hasil = $a + $b; // tambah
+    $kurang = $a - $b; // kurang
+    $kali = $a * $b; // kali
+    $bagi = $a / $b; // pembagian
+    $sisabagi = $a % $b; // sisa pembagian
     // menampilkan string
     echo "Hello, saya Gery";
     //bikin baris kosong
@@ -26,6 +30,10 @@
     echo "<br>";
     // menampilkan hasil tadi
     echo $hasil. PHP_EOL;
+    echo $kurang. PHP_EOL;
+    echo $kali. PHP_EOL;
+    echo $bagi. PHP_EOL;
+    echo $sisabagi. PHP_EOL;
     ?>
 
 </body>
