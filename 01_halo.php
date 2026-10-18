@@ -1,12 +1,14 @@
 <?php
-// ============================================================
-// Latihan 1 — Halo, PHP!
-// Tujuan : mengenal PHP dan menampilkan teks dengan echo.
-// Buka   : http://localhost/smk4/kasirqu/01_halo.php
-//
-// INGAT: file PHP boleh berisi HTML biasa. Bagian yang diawali
-// <?php ... ?> adalah "otak" yang dijalankan server.
-// ============================================================
+/*
+============================================================
+Latihan 1 — Halo, PHP!
+Tujuan : mengenal PHP dan menampilkan teks dengan echo.
+Buka   : http://localhost/smk4/kasirqu/01_halo.php
+
+INGAT: file PHP boleh berisi HTML biasa. Bagian yang diawali
+<?php ... ?> adalah "otak" yang dijalankan server.
+============================================================
+*/
 ?>
 <!DOCTYPE html>
 <html lang="id">
