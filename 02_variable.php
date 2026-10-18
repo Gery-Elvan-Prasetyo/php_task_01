@@ -20,7 +20,7 @@
     $array_to = ["produk"=>$produk, "harga" =>$harga];
     var_dump($array_to). PHP_EOL;
 
-    $nama = "Gery";
+    $nama = "Gery"; // string
     $umur = 10;
     $Sekolah = "Smkn 4 bdl";
     $hobi = "chilling, memandang alam";
