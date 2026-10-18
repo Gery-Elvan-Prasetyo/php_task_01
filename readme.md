@@ -5,3 +5,16 @@ POV : kodenya berhasil jalan:
 
 sapa yg edit readme gua 
 
+#04_operator.php
+
+-- kenapa ada [$i]? untuk mengambil data berdasarkan nomor array
+   misal $i = 0; klo lu echo hasilnya indomie bukan teh pucuk. singkatnya untuk menangkap variabel array berdasarkan nomor.
+
+-- ttlbyr[$i] jadi ttlbyr[0] && ttlbyr[1] hasilnya indomie dan && teh pucuk.
+
+-- $ttlbyr[$i] = $hrgstn[$i] * $ttlbli[$i] cara kerjanya ttlbyr[0] = hrgstn[0](4000) * ttlbli[0](3) 
+   $total = $ttlbyr[0](12000)
+
+kenapa pakai count? supaya kalau nambah barang tidak ubah 2 2 nya.
+
+kenapa pakai for?

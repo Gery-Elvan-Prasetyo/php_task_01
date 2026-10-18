@@ -10,13 +10,13 @@
 <body>
     <?php
     // basic aritmatika
-    $a = 10;
-    $b = 3;
-    $tam = $a + $b;
-    $kur = $a - $b;
-    $kal = $a * $b;
-    $bag = $a / $b;
-    $mdl = $a % $b;
+    $a = 10; // variable a
+    $b = 3;  // variable b
+    $tam = $a + $b; // ditambah
+    $kur = $a - $b; // dikurang
+    $kal = $a * $b; // dikali
+    $bag = $a / $b; // dibagi
+    $mdl = $a % $b; // sisa dari pembagian berapa
 
     // studi
     $nmbrg = ["indomie", "teh pucuk"];
@@ -25,20 +25,22 @@
     $ttlbyr = [];
     $total = 0;
 
-    for ($i = 0; $i < count($nmbrg); $i++) {
-        $ttlbyr[$i] = $hrgstn[$i] * $ttlbli[$i];
-        $total += $ttlbyr[$i];
+    for ($i = 0; $i < count($nmbrg); $i++) // kenapa pakai count? klo barang nambah mlz ngubah angka
+    {
+        $ttlbyr[$i] = $hrgstn[$i] * $ttlbli[$i]; // kasih [$i] biar jd array yg ngarah ke array 0 dan 1
+        $total += $ttlbyr[$i]; // si total ngeklaim dia itu total bayar
 
-        echo $nmbrg[$i] . "= rp" . $ttlbyr[$i] . "\n";
+        echo $nmbrg[$i] . "= rp" . $ttlbyr[$i] . "\n"; // hasilnya array 0 dan 1 beserta harganya
     }
-    $uangdbw = 31000;
-    $susuk = $uangdbw - $total;
+    $uangdbw = 31000; // yahahaha miskin
+    $susuk = $uangdbw - $total; // sesuai nama
 
-    echo "total belanja : $total\n";
+    echo "total belanja : $total\n"; // sisa kebawah tinggal echo doang
     echo "uang dibayar  : rp $uangdbw\n";
     echo "kembalian     : rp $susuk\n";
 
-    if ($total % 2 == 0) {
+    if ($total % 2 == 0) // logika if else 
+    {
         echo "genap";
     } else {
         echo "ganjil";
