@@ -12,12 +12,18 @@
     <br>
 
     <?php
-    $teks = "Toko Gery";
-    $aura = ["luminosity", "sol", "aegis", "lotusfall"];
+    $teks = "Sol's RNG";
+    $iden = 20;
+    $ag = 370.000;
+    $aura = ["luminosity", "sol", "aegis", "lotusfall", "pixelation"]; // menambhakan pixelation hasilnya ada array ke 4
     $rarity = [1200000000, 00, 825000000, 320000000];
     $biome = ["none", "only admin now", "none/cyberspace half the chance", "none i guess"];
     $array_to = ["aura" => $aura, "rarity" => $rarity, "biome" => $biome];
 
+    // perbandingab
+    var_dump(16). PHP_EOL; // menjadi int
+    var_dump("16"). PHP_EOL; // menjadi string
+    echo "<br>";
     var_dump($array_to["aura"], $array_to["rarity"], $array_to["biome"]);
     ?>
 

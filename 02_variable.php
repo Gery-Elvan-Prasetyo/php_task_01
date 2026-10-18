@@ -1,40 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sumbul</title>
+    <title>Document</title>
 </head>
-
 <body>
-    <h1>ass</h1>
-    <br>
-
     <?php
-
-    $nama = "Gery"; // "" buat string
-    $umur = 10; // nomor untuk integer dan float pakein "."
-    $Sekolah = "Smkn 4 bdl"; // string
-    $hobi = "chilling, memandang alam"; // sama aja
-    $tahunlahir = 2009; // int
-    $whenyh = 5; // int
-    $jumlah = $tahunlahir + $whenyh; // menjumlahkan
-    // menggabungkan kata
-    $kata1 = "hai,"; // kata 1
-    $kata2 = "aku pristel"; // kata 2
-    $gabungkata = $kata1. " ". $kata2; // "." untuk menggabung variable atau string
-
-    echo "nama : $nama \n";
-    print_r("umur : $umur \n");
-    var_dump("sekolah : $Sekolah \n");
-    echo "hobi : $umur \n";
-    echo "lahir : $tahunlahir \n";
-    echo "??? : $jumlah \n";
-    echo $gabungkata;
-
+    $nama = "gery"; 
+    $umur = 10;
+    $sekolah = "smkn4 bdl";
+    $hobi = "chilling dan memandang alam";
+    $thn = 2009;
+    $wh = 22;
+    $su = $thn + $wh;
+    $favfood = "daging";
+    $uang_jajan = 20000;
+    
+    echo "nama : $nama\n";
+    echo "umur : $umur\n";
+    echo "sekolah : $sekolah\n";
+    echo "hobi : $hobi\n";
+    echo "whenyh  : $su\n";
+    echo "fav food : $favfood\n";
+    echo "uang : $uang_jajan\n";
     ?>
-
 </body>
-
 </html>
