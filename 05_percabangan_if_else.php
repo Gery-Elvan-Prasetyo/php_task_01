@@ -23,12 +23,13 @@
 
     echo "<br>";
 
-    $ttlblnj = 120000;
-    $discount = 12000;
+    $ttlblnj = 160000;
+    $discount = 20;
 
-    if ($ttlblnj >= 120000) {
-        $dibayar = $ttlblnj - $discount;
-        echo $dibayar;
+    if ($ttlblnj > 150000) {
+        $disco = $ttlblnj * 0.2;
+        $dibayar = $ttlblnj - $disco;
+        echo $dibayar; 
     } else {
         echo $ttlblnj;
     }
