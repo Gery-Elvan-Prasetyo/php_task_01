@@ -9,7 +9,7 @@
 
 <body>
     <?php
-    $nilai = 92;
+    $nilai = random_int(59,100);
 
     if ($nilai >= 90) {
         echo "nilai A\n";
@@ -24,9 +24,9 @@
     echo "<br>";
 
     $ttlblnj = 160000;
-    $discount = 20;
+    $discount = 15;
 
-    if ($ttlblnj > 150000) {
+    if ($ttlblnj > 100000 & $ttlblnj < 150001) {
         $disco = $ttlblnj * 0.2;
         $dibayar = $ttlblnj - $disco;
         echo $dibayar; 
