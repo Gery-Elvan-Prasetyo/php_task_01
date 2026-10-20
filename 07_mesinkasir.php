@@ -75,10 +75,10 @@
     echo "<br>";
     
     // harga termahal tugas 4
-    $mahal = max($harga); // 
-    $indexS = array_search($mahal, $harga);
-    echo "barang paling mahal : "; echo $barang[$indexS];
-    echo " - Rp" . number_format($mahal, 0, ',', '.');
+    $mahal = max($harga); // nyari harga termahal 
+    $indexS = array_search($mahal, $harga); // harga termahal ada di array berapa?
+    echo "barang paling mahal : "; echo $barang[$indexS]; // pakai $barang kalo mau nama barangnya dan [$indexS] untuk ngasih tau lokasi ke $barang
+    echo " - Rp" . number_format($mahal, 0, ',', '.'); // harga termahal di print
     echo "\n";
     echo "<br>";
  
