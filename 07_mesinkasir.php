@@ -42,6 +42,16 @@
             $diskon - 5;
         }
 
+        // kalau uang kurang tugas 3
+    if ($cashaing >= $totalb)
+        {
+            echo "berhasil bayar";
+        }
+    else
+    {
+        echo "uang tidak mencukupi";
+    }
+
     // harga termahal
     $mahal = max($harga);
     $indexS = array_search($mahal, $harga);
@@ -75,15 +85,7 @@
     echo "\n";
     echo "<br>";
 
-    // kalau uang kurang tugas 3
-    if ($cashaing >= $totalb)
-        {
-            echo "berhasil bayar";
-        }
-    else
-    {
-        echo "uang tidak mencukupi";
-    }
+    
 
 
     ?>
