@@ -6,8 +6,9 @@
     <title>Sumbul</title>
 </head>
 <body>
-    <h1>ass</h1>
+    <h1>ass gery</h1>
     <br>
+    <h2>ini adalah struktur untuk prototipe menghubungkan ke 01-08</h2>
 
     <?php
     $a = 10;
