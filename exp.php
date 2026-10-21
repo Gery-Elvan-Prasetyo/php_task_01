@@ -9,10 +9,12 @@ $auras = [
     "mythic" => 1000,
     "aegis" => 825000000,
     "luminosity" => 1200000000,
-    "breakthrough" => 1999999999
+    "breakthrough" => 1999999999,
+    "equinox" => 2500000000,
+    "monarch" => 3000000000
 ];
 
-$target = "luminosity";
+$target = "monarch";
 $jumlahRoll = 0;
 $hasil = "";
 $luck = 5;

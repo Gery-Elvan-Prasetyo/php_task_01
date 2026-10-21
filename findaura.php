@@ -24,11 +24,13 @@
         "sovereign" => 750000000,
         "aegis" => 825000000,
         "luminosity" => 1200000000,
-        "breakthrough" => 1999999999
+        "breakthrough" => 1999999999,
+        "equinox" => 2500000000,
+        "monarch" => 3000000000
     ];
 
     // Pengaturan gacha
-    $target = "sovereign";
+    $target = "equinox";
     $luck = 1000;
     $maxRoll = 1000000;
 
