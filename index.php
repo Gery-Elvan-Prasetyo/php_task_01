@@ -16,14 +16,14 @@
 // Nanti di Pertemuan 10, menu ini akan dihubungkan ke tiap halaman
 // lewat satu header bersama (partials/header.php).
 $latihan = [
-    1 => ["file" => "01_halo.php",        "judul" => "Halo, PHP!",          "desc" => "Menampilkan teks dengan echo dan mencampur HTML + PHP."],
-    2 => ["file" => "02_variabel.php",    "judul" => "Variabel",            "desc" => "Menyimpan data di kotak berlabel: nama, umur, sekolah."],
-    3 => ["file" => "03_tipe_data.php",   "judul" => "Tipe Data",           "desc" => "String, integer, float, boolean, dan array."],
-    4 => ["file" => "04_operator.php",    "judul" => "Operator",            "desc" => "Hitung-hitungan dan menggabung teks."],
-    5 => ["file" => "05_percabangan.php", "judul" => "Percabangan",         "desc" => "Mengambil keputusan dengan if / else / switch."],
-    6 => ["file" => "06_perulangan.php",  "judul" => "Perulangan",          "desc" => "Mengulang pekerjaan dengan for, while, foreach."],
-    7 => ["file" => "07_mesin_kasir.php", "judul" => "Mesin Kasir Digital", "desc" => "Gabungan semuanya: hitung struk belanja otomatis."],
-    8 => ["file" => "08_latihan_bebas.php","judul" => "Latihan Bebas",      "desc" => "Tantangan mandiri: bikin programmu sendiri."],
+    1 => ["file" => "01_halo.php.bak",        "judul" => "Halo, PHP!",          "desc" => "Menampilkan teks dengan echo dan mencampur HTML + PHP."],
+    2 => ["file" => "02_variabel.php.bak",    "judul" => "Variabel",            "desc" => "Menyimpan data di kotak berlabel: nama, umur, sekolah."],
+    3 => ["file" => "03_tipe_data.php,bak",   "judul" => "Tipe Data",           "desc" => "String, integer, float, boolean, dan array."],
+    4 => ["file" => "04_operator.php.bak",    "judul" => "Operator",            "desc" => "Hitung-hitungan dan menggabung teks."],
+    5 => ["file" => "05_percabangan.php.bak", "judul" => "Percabangan",         "desc" => "Mengambil keputusan dengan if / else / switch."],
+    6 => ["file" => "06_perulangan.php.bak",  "judul" => "Perulangan",          "desc" => "Mengulang pekerjaan dengan for, while, foreach."],
+    7 => ["file" => "07_mesin_kasir.php.bak", "judul" => "Mesin Kasir Digital", "desc" => "Gabungan semuanya: hitung struk belanja otomatis."],
+    8 => ["file" => "08_latihan_bebas.php.bak","judul" => "Latihan Bebas",      "desc" => "Tantangan mandiri: bikin programmu sendiri."],
 ];
 
 $jumlah = count($latihan); // count() = menghitung banyaknya isi array.
