@@ -18,7 +18,7 @@
 $latihan = [
     1 => ["file" => "01_halo.php.bak",        "judul" => "Halo, PHP!",          "desc" => "Menampilkan teks dengan echo dan mencampur HTML + PHP."],
     2 => ["file" => "02_variabel.php.bak",    "judul" => "Variabel",            "desc" => "Menyimpan data di kotak berlabel: nama, umur, sekolah."],
-    3 => ["file" => "03_tipe_data.php,bak",   "judul" => "Tipe Data",           "desc" => "String, integer, float, boolean, dan array."],
+    3 => ["file" => "03_tipe_data.php.bak",   "judul" => "Tipe Data",           "desc" => "String, integer, float, boolean, dan array."],
     4 => ["file" => "04_operator.php.bak",    "judul" => "Operator",            "desc" => "Hitung-hitungan dan menggabung teks."],
     5 => ["file" => "05_percabangan.php.bak", "judul" => "Percabangan",         "desc" => "Mengambil keputusan dengan if / else / switch."],
     6 => ["file" => "06_perulangan.php.bak",  "judul" => "Perulangan",          "desc" => "Mengulang pekerjaan dengan for, while, foreach."],
