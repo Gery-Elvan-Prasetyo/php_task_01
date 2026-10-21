@@ -10,7 +10,7 @@
 <body>
     <?php
     $auras = ["common" => 2, "uncommon" => 5, "rare" => 25, "epic" => 100, "legendary" => 500, "mythic" => 1000, "aegis" => 825000000, "luminosity" => 1200000000, "breakthrough" => 1999999999];
-    $hasil = [];
+    $hasil = []; // jangan lupa dijadiin array
 
     foreach ($auras as $aa => $rarity) {
         if (random_int(1, $rarity) === 1) {
