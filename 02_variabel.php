@@ -9,10 +9,12 @@
 // ============================================================
 
 // 1) Membuat variabel dan mengisinya.
-$nama     = "Rani";
+$nama     = "Alfredo";
 $umur     = 16;
-$sekolah  = "SMK Nusantara 1";
-$hobi     = "main game online";
+$sekolah  = "SMK Negeri 4 Bandar Lampung";
+$hobi     = "dengar musik";
+$makanan_favorit = "Mie ayam";
+$uang_jajan = 20000;
 
 // 2) Mengambil nilai variabel dan menghitung.
 $tahun_lahir = 2026 - $umur;
@@ -59,6 +61,8 @@ $tahun_lahir = 2026 - $umur;
         <tr><td>$sekolah</td><td><?php echo $sekolah; ?></td></tr>
         <tr><td>$hobi</td><td><?php echo $hobi; ?></td></tr>
         <tr><td>hasil hitung</td><td>Tahun lahir sekitar <?php echo $tahun_lahir; ?></td></tr>
+        <tr><td>$makanan_favorit</td><td><?php echo $makanan_favorit; ?></td></tr>
+        <tr><td>$uang_jajan</td><td>Uang jajanku <?php echo $uang_jajan; ?></td></tr>
       </table>
     </div>
 

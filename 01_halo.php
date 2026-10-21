@@ -9,6 +9,7 @@ INGAT: file PHP boleh berisi HTML biasa. Bagian yang diawali
 <?php ... ?> adalah "otak" yang dijalankan server.
 ============================================================
 */
+$nama = "Alfredo"
 ?>
 <!DOCTYPE html>
 <html lang="id">
@@ -38,15 +39,14 @@ INGAT: file PHP boleh berisi HTML biasa. Bagian yang diawali
       <?php
         // echo = perintah untuk "mengeluarkan" teks ke halaman.
         // Perhatikan titik dua (;) di akhir setiap perintah. Jangan lupa!
-        echo "<h2>Halo, Dunia!</h2>";
-        echo "<p>Namaku <strong>PHP</strong>, bahasa yang membuat web jadi hidup.</p>";
-        echo "<p>Hari ini: " . date("d M Y") . "</p>";
+        echo "<h2>Halo, aku $nama</h2>";
+        echo "Cita-citaku menjadi programmer";
       ?>
     </div>
 
     <p>Kita juga bisa menyisipkan PHP di tengah HTML seperti ini:</p>
     <div class="card">
-      <p>2 + 3 = <strong><?php echo 2 + 3; ?></strong> (dihitung oleh PHP, bukan ditulis manual).</p>
+      <p>10 * 5 = <strong><?php echo 10 * 5; ?></strong>
     </div>
 
     <div class="task">
