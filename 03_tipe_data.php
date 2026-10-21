@@ -22,9 +22,9 @@ Hasilnya:
         <pre><?php var_dump(16); var_dump("16")?></pre>
 Sistem akan membaca <code>var_dump(16)</code> sebagai integer, sedangkan <code>var_dump("16")</code> akan dibaca sebagai string
 <li><h3>Tugas 3</h3></li>
-<pre>&lt;?php echo $produk[2]; ?&gt;</pre>
+<pre>&lt;?php var_dump($produk); ?&gt;</pre>
 Hasilnya: 
-<pre><?php echo $produk[2]; ?></pre>
+<pre><?php var_dump($produk); ?></pre>
 </ul>
  
 </body>
