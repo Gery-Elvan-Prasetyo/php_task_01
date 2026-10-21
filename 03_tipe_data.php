@@ -56,7 +56,6 @@ $array_to =["produk"=>$produk,"harga"=>$harga,"jumlah"=>$jumlah];
         var_dump($jumlah);
         var_dump($stok_ada);
       ?></pre>
-<pre
     </div>
 
     <div class="task">
