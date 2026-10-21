@@ -14,14 +14,14 @@
     <?php
     $teks = "Toko Gery";
     $jumlah = 20;
-    $harga = 3500.00;
+    $harga = 3500.00; // double/float menggunakan titik "." bukan ","
     $stok_ada = true;
     $produk = ["indomie","teh pucuk","kopi"];
     $array_to = ["produk"=>$produk, "harga" =>$harga];
     var_dump($array_to). PHP_EOL;
 
     $nama = "Gery"; // string
-    $umur = 10;
+    $umur = 10; // int itu tanpa menggunakan titik "."
     $Sekolah = "Smkn 4 bdl";
     $hobi = "chilling, memandang alam";
     $tahunlahir = 2009;
