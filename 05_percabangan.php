@@ -11,7 +11,7 @@ if ($nilai >= 90) {
     $predikat = "D (Perlu belajar lagi)";
 }
 
-$total_belanja = 120000;
+$total_belanja = 110000;
 if ($total_belanja >= 150000) {
     $diskon = 0.20 * $total_belanja;   // cihuy dapat diskon 20%
 } elseif ($total_belanja >= 100000){
@@ -32,7 +32,7 @@ $bayar = $total_belanja - $diskon;
 <h2>Tugas 1</h2>
       Nilai <strong><?php echo $nilai; ?></strong>
       <p>Predikat: <span class="pill ok"><?php echo $predikat; ?></span></p>
-<h2>Tugas 2 dan 3, Belanja online</h2>
+<h2>Tugas 2 dan 3</h2>
       <table>
 <table border="1">
         <tr><th>Total belanja</th><td>Rp<?php echo $total_belanja; ?></td></tr>
