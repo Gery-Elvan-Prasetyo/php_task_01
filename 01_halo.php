@@ -9,6 +9,7 @@ $nama = "Alfredo"
 ?>
 </head>
 <body>
+<a class="back" href="index.php">&larr; Kembali ke halaman utama</a>
 <?php
 echo "<h2>Halo aku $nama</h2>";
 echo "Cita-citaku menjadi programmer"

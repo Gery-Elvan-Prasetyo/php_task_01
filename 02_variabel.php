@@ -19,6 +19,7 @@ $tahun_lahir = 2026 - $umur;
     <title>Latihan02</title>
 </head>
 <body>
+<a class="back" href="index.php">&larr; Kembali ke halaman utama</a>
     <table>
 <table border="1">
         <tr><th>Label kotak</th><th>Isi</th></tr>

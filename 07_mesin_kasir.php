@@ -52,6 +52,7 @@ foreach ($belanja as $item) {
     <title>Latihan07</title>
 </head>
 <body>
+<a class="back" href="index.php">&larr; Kembali ke halaman utama</a>
           <h2>Keranjang Belanja</h2>
       <table>
 <table border="1">

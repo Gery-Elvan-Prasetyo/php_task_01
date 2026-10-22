@@ -19,6 +19,7 @@ $kembalian   = $uang_dibawa - $total_semua;        // pengurangan
     <title>Latihan04</title>
 </head>
 <body>
+<a class="back" href="index.php">&larr; Kembali ke halaman utama</a>
 <h2>Tugas 1 dan 2</h2>
       <table>
 <table border="1">

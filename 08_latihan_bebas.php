@@ -19,6 +19,7 @@ $sisa = $uang_awal;
     <title>Latihan08</title>
 </head>
 <body>
+<a class="back" href="index.php">&larr; Kembali ke halaman utama</a>
 <?php 
 echo "Uang awal: Rp " . number_format($uang_awal, 0, ',', '.') . "<br><br>";
 

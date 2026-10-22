@@ -12,6 +12,7 @@ $keranjang = ["Indomie", "Teh Pucuk", "Kopi", "Roti", "Bakso"];
     <title>Latihan06</title>
 </head>
 <body>
+<a class="back" href="index.php">&larr; Kembali ke halaman utama</a>
 <h2>Tugas 1</h2>
     <table>
         <?php

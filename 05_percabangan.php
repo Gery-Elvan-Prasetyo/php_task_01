@@ -29,6 +29,7 @@ $bayar = $total_belanja - $diskon;
     <title>Latihan05</title>
 </head>
 <body>
+<a class="back" href="index.php">&larr; Kembali ke halaman utama</a>
 <h2>Tugas 1</h2>
       Nilai <strong><?php echo $nilai; ?></strong>
       <p>Predikat: <span class="pill ok"><?php echo $predikat; ?></span></p>

@@ -15,6 +15,7 @@ $array_to =["produk"=>$produk,"harga"=>$harga,"jumlah"=>$jumlah];
     <title>Latihan03</title>
 </head>
 <body>
+<a class="back" href="index.php">&larr; Kembali ke halaman utama</a>
    <ul>
 <li><h3>Tugas 1 dan 2</h3></li>
 <pre>&lt;?php var_dump(16); var_dump("16")?&gt;</pre>
