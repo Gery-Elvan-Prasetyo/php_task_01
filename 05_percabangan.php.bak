@@ -31,7 +31,7 @@ if ($total_belanja >= 100000) {
 $bayar = $total_belanja - $diskon;
 
 // --- Contoh 3: switch untuk pilihan sederhana ---
-$hari = "Rabu";
+$hari = "Senin";
 switch ($hari) {
     case "Senin":
         $status = "Awal pekan, semangat!";
