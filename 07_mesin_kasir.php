@@ -49,7 +49,7 @@ foreach ($belanja as $item) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latihan 07</title>
+    <title>Latihan07</title>
 </head>
 <body>
           <h2>Keranjang Belanja</h2>
