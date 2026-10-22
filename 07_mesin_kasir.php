@@ -90,7 +90,7 @@ foreach ($belanja as $item) {
    <tr>
         <th>Barang Termahal</th>
         <td>
-            <?php echo $barang_termahal["nama"] . " — " . rupiah($barang_termahal["harga"]);
+            <?php echo $barang_termahal["nama"] . " sebesar " . rupiah($barang_termahal["harga"]);
   ?>
         </td>
     </tr>
