@@ -19,6 +19,7 @@ $kembalian   = $uang_dibawa - $total_semua;        // pengurangan
     <title>Latihan04</title>
 </head>
 <body>
+<h2>Tugas 1 dan 2</h2>
       <table>
 <table border="1">
         <tr><th>Barang</th><td><?php echo $nama_barang; ?></td></tr>
@@ -33,5 +34,9 @@ $kembalian   = $uang_dibawa - $total_semua;        // pengurangan
         <tr><th>Uang dibawa</th><td>Rp<?php echo $uang_dibawa; ?></td></tr>
         <tr><th>Kembalian</th><td>Rp<?php echo $kembalian; ?></td></tr>
       </table>
+<h2>Tugas 3</h2>
+<pre>&lt;?php echo $total % 2; ?&gt;</pre>
+Hasilnya: 
+<pre><?php echo $total % 2; ?></pre>
 </body>
 </html>
