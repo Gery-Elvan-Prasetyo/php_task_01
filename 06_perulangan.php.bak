@@ -37,7 +37,7 @@ $hitung_mundur = 5;
 
     <div class="card">
       <h2>1. for &mdash; tahu pasti berapa kali</h2>
-      <p>Cocok untuk membuat tabel perkalian 3:</p>
+      <p>Cocok untuk membuat tabel perkalian 7:</p>
       <table>
         <?php
         for ($i = 1; $i <= 10; $i++) {
@@ -46,7 +46,7 @@ $hitung_mundur = 5;
         }
         ?>
       </table>
-      <pre>for ($i = 1; $i &lt;= 5; $i++) { ... }</pre>
+      <pre>for ($i = 1; $i &lt;= 10; $i++) { ... }</pre>
     </div>
 
     <div class="card">
