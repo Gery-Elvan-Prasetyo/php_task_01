@@ -18,7 +18,7 @@ $latihan = [
     <title>KasirQu</title>
 </head>
 <body>
-<h1>Ini adalah tempat berpindah ke masing masing halaman Latihan</h1>
+<h1>halo gais, alfredo disini</h1>
       <div class="grid">
       <?php
       foreach ($latihan as $nomor => $item) {
