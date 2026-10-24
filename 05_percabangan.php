@@ -2,13 +2,13 @@
 $nilai = 92;
 
 if ($nilai >= 90) {
-    $predikat = "A (Luar biasa)";
+    $predikat = "A";
 } elseif ($nilai >= 80) {
-    $predikat = "B (Bagus)";
+    $predikat = "B";
 } elseif ($nilai >= 70) {
-    $predikat = "C (Cukup)";
+    $predikat = "C";
 } else {
-    $predikat = "D (Perlu belajar lagi)";
+    $predikat = "E";
 }
 
 $total_belanja = 110000;
