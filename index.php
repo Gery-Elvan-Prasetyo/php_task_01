@@ -18,7 +18,7 @@ $latihan = [
     <title>KasirQu</title>
 </head>
 <body>
-<h1>halo gais, alfredo disini</h1>
+<h1>halo gais, david disini</h1>
       <div class="grid">
       <?php
       foreach ($latihan as $nomor => $item) {
