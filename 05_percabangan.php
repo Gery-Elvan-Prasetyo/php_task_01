@@ -1,12 +1,14 @@
 <?php 
-$nilai = 92;
+$nilai = 70;
 
 if ($nilai >= 90) {
     $predikat = "A";
-} elseif ($nilai >= 80) {
+} elseif ($nilai >= 81) {
     $predikat = "B";
-} elseif ($nilai >= 70) {
+} elseif ($nilai >= 71) {
     $predikat = "C";
+} elseif ($nilai >= 61) {
+    $predikat = "D";
 } else {
     $predikat = "E";
 }
