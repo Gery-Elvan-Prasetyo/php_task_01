@@ -1,0 +1,138 @@
+/* Imports actual Comic Sans MS from a webfont CDN so it works on Linux too! */
+@import url('https://fonts.cdnfonts.com/css/comic-sans-ms');
+
+/* FIXED: Changed '-' to '*' so EVERY element uses Comic Sans! */
+* {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive !important;
+}
+
+/* 1. MAIN RGB ANIMATION (For Body & Title) */
+@keyframes rgb-cycle {
+    0%   { background-color: #ff4d4d; } /* Red */
+    16%  { background-color: #ff9933; } /* Orange */
+    33%  { background-color: #ffff4d; } /* Yellow */
+    50%  { background-color: #66ff66; } /* Green */
+    66%  { background-color: #4da6ff; } /* Blue */
+    83%  { background-color: #b366ff; } /* Purple */
+    100% { background-color: #ff4d4d; } /* Loop back to Red */
+}
+
+/* 2. BUTTON RGB ANIMATION */
+@keyframes btn-rgb {
+    0%   { background-color: #ff4d4d; } /* Red */
+    16%  { background-color: #ff9933; } /* Orange */
+    33%  { background-color: #ffff4d; } /* Yellow */
+    50%  { background-color: #66ff66; } /* Green */
+    66%  { background-color: #4da6ff; } /* Blue */
+    83%  { background-color: #b366ff; } /* Purple */
+    100% { background-color: #ff4d4d; } /* Loop back to Red */ 
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+    animation: rgb-cycle 8s linear infinite;
+}
+
+/* MAIN CONTAINER */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Keeps left side and character vertically centered */
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 4px solid #000000;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 10px 10px 0px #000000;
+    gap: 30px;
+}
+
+.left-section {
+    flex: 1;
+}
+
+/* TITLE BOX */
+.title-box {
+    border: 3px solid #000000;
+    border-radius: 12px;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 5px 5px 0px #000000;
+    animation: rgb-cycle 4s linear infinite;
+    animation-delay: -2s;
+}
+
+.title-box h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #000000;
+    letter-spacing: 1px;
+}
+
+.title-box p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* 2-COLUMN BUTTON GRID */
+.button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+/* BUTTON STYLING + BUTTON RGB */
+.retro-btn {
+    display: block;
+    color: #000000; /* Black text so it's easy to read on bright RGB colors */
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 18px 10px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px #000000;
+    transition: transform 0.1s, box-shadow 0.1s;
+    
+    /* Runs the button RGB animation faster (3s) so it feels extra lively */
+    animation: btn-rgb 3s linear infinite;
+}
+
+/* RAINBOW WAVE EFFECT: Offsets the timing for each button */
+.retro-btn:nth-child(1) { animation-delay: 0.0s; }
+.retro-btn:nth-child(2) { animation-delay: -0.4s; }
+.retro-btn:nth-child(3) { animation-delay: -0.8s; }
+.retro-btn:nth-child(4) { animation-delay: -1.2s; }
+.retro-btn:nth-child(5) { animation-delay: -1.6s; }
+.retro-btn:nth-child(6) { animation-delay: -2.0s; }
+.retro-btn:nth-child(7) { animation-delay: -2.4s; }
+.retro-btn:nth-child(8) { animation-delay: -2.8s; }
+
+/* Hover effect */
+.retro-btn:hover {
+    color: #ffffff;
+    background-color: #000000;
+    animation: none; /* Pauses the RGB and turns solid black/white when hovered! */
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px #000000;
+}
+
+/* CHARACTER BOX */
+.character-box {
+    width: 280px;
+    text-align: center;
+}
+
+.character-box img {
+    max-width: 100%;
+    max-height: 380px; /* Stops super tall web images from stretching your box */
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    /* Outlines the character (even transparent PNGs/GIFs!) with a chunky retro shadow */
+    filter: drop-shadow(6px 6px 0px #000000);
+}
